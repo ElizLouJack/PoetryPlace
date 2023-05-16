@@ -1,0 +1,182 @@
+
+/* All Pages Top */
+#logo {
+    cursor: pointer;
+}
+
+#top:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+#top {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    position:relative;
+}
+/* Home Page Top box*/
+
+#greybox {
+    width: 1115px;
+    margin: 0;
+    border: 0px solid;
+    padding: 10px;
+    fill: opacity 50px;
+    background-color: lightblue;
+
+}
+/*Boxes in box*/
+
+#medbox {
+    width: 900px;
+    margin: 0;
+    border: 0px solid;
+    padding: 10px;
+    fill: opacity 50px;
+    background-color: lightskyblue;
+}
+
+.flex-container {
+    display: flex;
+    width: 900px;
+}
+
+#flexchild {
+    flex: 1;
+    border: 2px solid lightsteelblue;
+    padding: 5px;
+    background-color: white;
+
+}
+
+flexchild:first-child {
+    margin-right: 20px;
+}
+
+#largtxt {
+    background-color: white;
+    width: 900px;
+    border: 2px solid lightsteelblue
+}
+
+
+#c1:hover {
+    cursor: pointer;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+#Blogg {
+    font-family: "Belleza";
+    font-style: Bold;
+    color: rgb(56,182,255);
+    position:relative;
+    left:560px;
+}
+
+
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    position: fixed;
+    left: 125px;
+    top: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color:lightblue; 
+  }
+ .h3{
+    width: 445px;
+    height: 60px;
+    color:lightskyblue;
+    font-family: "Glacial Indifference";
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.2;
+    right:125;;
+}
+#blog2{
+    position:relative;
+    right:125px;
+}
+#blogg3{
+    position:relative;
+    right:250;
+}
+a:link{
+    text-decoration:none ;
+}
+a{
+    color:black;
+    font-family:"Arial"
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    width:1200px;
+    position:relative;
+    left:100px;
+  }
+  
+  .grid-item {
+    background-color: lightsteelblue;
+    text-align: left;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  
+  .item5 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  }
+  #Thoughts{
+    font-family: "Belleza";
+    font-style: Bold;
+    color:rgb(56,182,255);
+ 
+  }
+  #inputPassword3{
+    width: 920px;
+    height: 146px;
+    background: #ffffff;
+    color: black;
+    border-color: #ebebeb;
+    border-width: 2px;
+    border-style: solid;
+    font-family: "Source Sans 3";
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+  }
+ .p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+ }
+
+  
+
